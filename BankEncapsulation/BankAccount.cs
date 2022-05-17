@@ -11,7 +11,7 @@ namespace BankEncapsulation
         public void Deposit(double amount)
         {
             Console.WriteLine($"{amount, 0:c}");
-            _balance = amount;
+            _balance += amount;
         }
         public double GetBalance()
         {
